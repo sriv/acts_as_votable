@@ -1,5 +1,6 @@
 require 'active_record'
 require 'active_support/inflector'
+require_relative 'acts_as_votable/config'
 
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 
